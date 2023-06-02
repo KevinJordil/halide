@@ -1,1 +1,4 @@
-# halide
+# Halide
+
+Basile Cuneo & Kévin Jordil
+

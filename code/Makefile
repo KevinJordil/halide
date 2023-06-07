@@ -1,5 +1,5 @@
 CXX := g++
-HALIDE_DIR := ../Halide
+HALIDE_DIR := ../halide
 
 # Flags de compilation
 CXXFLAGS := -std=c++17 #-Wall -Wextra

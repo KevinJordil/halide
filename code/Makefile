@@ -23,7 +23,7 @@ SRCS := main.cpp
 OBJS := $(SRCS:.cpp=.o)
 
 # Nom de l'exécutable
-TARGET := grayscale
+TARGET := main
 
 .PHONY: all clean
 

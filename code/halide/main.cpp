@@ -50,7 +50,7 @@ int main() {
   cv::imwrite(outputImagePath, outputImage);
 
   // Affichage du temps d'exécution
-  std::cout << "Temps d'inversion des couleurs : " << executionTime << " ms" << std::endl;
+  std::cout << " Halide: Temps d'inversion des couleurs : " << executionTime << " ms" << std::endl;
 
   return 0;
 }

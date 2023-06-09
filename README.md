@@ -12,10 +12,10 @@ Notre programme permet d'inverser les couleurs d'une image grâce à Halide.
 
 ## Compilation
 
-Pour compiler le programme, il suffit de se rendre dans le répertoire `code` et d'exécuter la commande `make`. L'exécutable s'appelle `main`.
+Pour compiler le programme, il suffit de se rendre dans le répertoire `code/halide` et d'exécuter la commande `make`. L'exécutable s'appelle `main`.
 
 ## Exécution
 
-Pour exécuter le programme, il faut utiliser la commande `make run` dans le répertoire `code`. Il est necessaire d'exécuter le programme via le Makefile pour que les variables d'environnement soient correctement initialisées.
+Pour exécuter le programme, il faut utiliser la commande `make run` dans le répertoire `code/halide`. Il est necessaire d'exécuter le programme via le Makefile pour que les variables d'environnement soient correctement initialisées.
 
 

@@ -3,7 +3,8 @@
 
 int main() {
   // Chargement de l'image à partir du fichier
-  std::string inputImagePath = "./16k.jpg";
+  std::string inputImagePath = "../../images/inputs/16k.jpg";
+  //std::string inputImagePath = "../../images/inputs/balloon.jpg";
   cv::Mat inputImage = cv::imread(inputImagePath, cv::IMREAD_COLOR);
 
   // Dimensions de l'image
@@ -33,7 +34,8 @@ int main() {
   double executionTime = duration.count();
 
   // Enregistrement de l'image résultante sur le disque
-  std::string outputImagePath = "./new_16k.jpg";
+  std::string outputImagePath = "../../images/outputs/16k_opencv.jpg";
+  //std::string outputImagePath = "../../images/outputs/balloon_opencv.jpg";
   cv::imwrite(outputImagePath, outputImage);
 
   // Affichage du temps d'exécution

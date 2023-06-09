@@ -4,7 +4,8 @@
 
 int main() {
   // Chargement de l'image à partir du fichier
-  std::string inputImagePath = "./16k.jpg";
+  std::string inputImagePath = "../../images/inputs/16k.jpg";
+  //std::string inputImagePath = "../../images/inputs/balloon.jpg";
   cv::Mat inputImage = cv::imread(inputImagePath, cv::IMREAD_COLOR);
 
   // Dimensions de l'image
@@ -44,7 +45,8 @@ int main() {
   cv::Mat outputImage(height, width, CV_8UC3, output.data()); // Spécifier 3 canaux pour l'image couleur
 
   // Enregistrement de l'image résultante sur le disque
-  std::string outputImagePath = "./new_16k.jpg";
+  std::string outputImagePath = "../../images/outputs/16k_halide.jpg";
+  //std::string outputImagePath = "../../images/outputs/balloon_halide.jpg";
   cv::imwrite(outputImagePath, outputImage);
 
   // Affichage du temps d'exécution

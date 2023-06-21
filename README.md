@@ -49,6 +49,7 @@ De plus, Alberto Dassati nous a fait remarquer que dans la version de code avec 
 De ce fait les résultats changent. Voici les résultats avant modification :
 * OpenCV : ~2400ms
 * Halide : ~850ms
+
 Voici les résultats après modification :
 * OpenCV : ~180ms
 * Halide : ~340ms

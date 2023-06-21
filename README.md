@@ -54,4 +54,4 @@ Voici les résultats après modification :
 * OpenCV : ~180ms
 * Halide : ~340ms
 
-On peut donc observer que dans cet exemple, Halide est plus lent qu'OpenCV. Lorsqu'on regarde sur internet, on peut voir qu'Halide est mieux pour faire une suite de modifications bas niveau alors qu'OpenCV est plus adapté pour faire une transformation haut niveau.
+Nous observons donc que dans cet exemple, Halide est plus lent qu'OpenCV. Lorsque nous avons regardé sur internet, nous avons vu qu'Halide est plus adapté pour faire une suite de modifications bas niveau alors qu'OpenCV est plus adapté pour faire une transformation haut niveau.

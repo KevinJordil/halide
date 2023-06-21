@@ -22,14 +22,14 @@ int main() {
   Halide::Func invert;
   Halide::Var x, y, c;
 
-  // Mesure du temps de début
-  auto start = std::chrono::high_resolution_clock::now();
-
   // Inversion des couleurs pour chaque canal
   invert(x, y, c) = 255 - input(x, y, c);
 
   // Génération du code exécutable
   invert.compile_jit();
+
+  // Mesure du temps de début
+  auto start = std::chrono::high_resolution_clock::now();
 
   // Exécution du pipeline
   invert.realize(output);

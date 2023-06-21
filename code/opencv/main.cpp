@@ -18,6 +18,8 @@ int main() {
   auto start = std::chrono::high_resolution_clock::now();
 
   // Inversion des couleurs pour chaque pixel de l'image
+  cv::bitwise_not(inputImage, outputImage);
+  /*
   for (int y = 0; y < height; y++) {
     for (int x = 0; x < width; x++) {
       cv::Vec3b pixel = inputImage.at<cv::Vec3b>(y, x);
@@ -25,6 +27,7 @@ int main() {
       outputImage.at<cv::Vec3b>(y, x) = invertedPixel;
     }
   }
+  */
 
   // Mesure du temps de fin
   auto end = std::chrono::high_resolution_clock::now();
